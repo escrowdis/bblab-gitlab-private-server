@@ -8,8 +8,9 @@ click "Profile setting" (top right) -> "SSH Keys"
 If you dont have any SSH key, click "[generate it](http://140.112.94.123:100/help/ssh/ssh)".
 
 Open your SourceTree and open the "Terminal" (a.k.a. Git Bash) and type the codes () in the [guide](http://140.112.94.123:100/help/ssh/ssh).
-##### ssh-keygen -t rsa -C "$your_email"
-
+```
+ssh-keygen -t rsa -C "$your_email"
+```
 ![](ssh1.PNG)
 
 ![](ssh2.PNG)
